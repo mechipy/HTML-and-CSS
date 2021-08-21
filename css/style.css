@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+}
+
+
+header{
+    background-image: url(../img/portada.jpg);
+    height: 100vh;
+}
+
+ul{
+    color: white;
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+#titulos
+
+/* agregando estilos*/
+
+h3{
+    font-size: 35px;
+}
+
+#empresa{
+    background-color: #03658C;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+
+img{
+    width: 50%;
+    height: 100vh;
+}
+
+p, #boton1{
+    font-size: 25px;
+    margin: 30px;
+}
+
+#boton1{
+    background-color: rgb(250, 168,75);
+    padding:  5px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contacto{
+    margin: 50px;
+    height: 30vh;
+}
+
+label, input, button{
+    font-size: 3vh;
+}
+
+/* pie de pagina*/
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
